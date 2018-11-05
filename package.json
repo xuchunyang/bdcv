@@ -2,7 +2,7 @@
   "name": "bing-dict",
   "version": "1.0.0",
   "description": "Minimalists' English-Chinese Bing dictionary",
-  "main": "bing-dict.js",
+  "bin": "./bing-dict.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
