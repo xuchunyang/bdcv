@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/xuchunyang/bing-dict/issues"
   },
-  "homepage": "https://github.com/xuchunyang/bing-dict"
+  "homepage": "https://github.com/xuchunyang/bing-dict",
+  "dependencies": {
+    "jsdom": "^13.0.0"
+  }
 }
