@@ -1,0 +1,19 @@
+{
+  "name": "bing-dict",
+  "version": "1.0.0",
+  "description": "Minimalists' English-Chinese Bing dictionary",
+  "main": "bing-dict.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xuchunyang/bing-dict.git"
+  },
+  "author": "Xu Chunyang",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/xuchunyang/bing-dict/issues"
+  },
+  "homepage": "https://github.com/xuchunyang/bing-dict"
+}
