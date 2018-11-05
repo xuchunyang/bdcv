@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/xuchunyang/bing-dict",
   "dependencies": {
+    "chalk": "^2.4.1",
     "jsdom": "^13.0.0"
   }
 }

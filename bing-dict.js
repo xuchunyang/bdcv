@@ -16,6 +16,7 @@ const word = getWord();
 const querystring = require('querystring');
 const http = require('http');
 const { JSDOM } = require('jsdom');
+const chalk = require('chalk');
 
 const baseUrl = "http://www.bing.com/dict/search?mkt=zh-cn&q=";
 const url = baseUrl + querystring.escape(word);
@@ -32,7 +33,7 @@ function definitions(dom) {
   const defs = dom.window.document.querySelectorAll('.def');
   return [...defs].map((def) => {
     const pos = def.previousElementSibling;
-    return pos.textContent + ' ' + def.textContent;
+    return [pos.textContent, def.textContent];
   })
 }
 
@@ -61,7 +62,8 @@ http.get(url, (res) => {
       if (defs.length > 0) {
         const pron = pronunciation(dom);
         // hello [heˈləʊ]: int. 你好；喂；您好；哈喽 | 网络 哈罗；哈啰；大家好
-        console.log(`${word} ${pron}: ${defs.join(' | ')}`)
+        // console.log(`${word} ${pron}: ${defs.map((([pos, def]) => pos + ' ' + def)).join(' | ')}`);
+        console.log(`${chalk.green(word)} ${chalk.red(pron)}: ${defs.map((([pos, def]) => chalk.blue(pos) + ' ' + def)).join(chalk.gray(' | '))}`);
       } else {
         console.log('No result');
       }
