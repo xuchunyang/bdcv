@@ -9,7 +9,14 @@ A Node.js port of [bing-dict.el](https://github.com/cute-jumper/bing-dict.el).
 
 ## Usage
 
-TODO
+To install:
+
+    ~ $ npm i -g bing-dict
+
+To use:
+
+    ~ $ bing-dict hello
+    hello [heˈləʊ]: int. 你好；喂；您好；哈喽 | 网络 哈罗；哈啰；大家好
 
 ## Motivation
 
