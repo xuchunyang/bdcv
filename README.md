@@ -1,4 +1,4 @@
-# bing-dict
+# bdcv
 
 A Node.js port of [bing-dict.el](https://github.com/cute-jumper/bing-dict.el).
 
@@ -11,11 +11,11 @@ A Node.js port of [bing-dict.el](https://github.com/cute-jumper/bing-dict.el).
 
 To install:
 
-    ~ $ npm i -g bing-dict
+    ~ $ npm i -g bdcv
 
 To use:
 
-    ~ $ bing-dict hello
+    ~ $ bdcv hello
     hello [heˈləʊ]: int. 你好；喂；您好；哈喽 | 网络 哈罗；哈啰；大家好
 
 ## Motivation

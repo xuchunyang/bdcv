@@ -4,8 +4,8 @@ function getWord() {
   const args = process.argv.slice(2);
   if (args.length === 0 || args.some((elt) => elt === '-h' || elt === '--help')) {
     console.log(`
-Usage: bing-dict WORD...
-       bing-dict -h|--help`.trimStart());
+Usage: bdcv WORD...
+       bdcv -h|--help`.trimStart());
     process.exit();
   }
   return args.join(' ');
