@@ -1,21 +1,21 @@
 {
-  "name": "bing-dict",
+  "name": "bdcv",
   "version": "1.0.0",
   "description": "Minimalists' English-Chinese Bing dictionary",
-  "bin": "./bing-dict.js",
+  "bin": "./bdcv.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xuchunyang/bing-dict.git"
+    "url": "git+https://github.com/xuchunyang/bdcv.git"
   },
   "author": "Xu Chunyang",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/xuchunyang/bing-dict/issues"
+    "url": "https://github.com/xuchunyang/bdcv/issues"
   },
-  "homepage": "https://github.com/xuchunyang/bing-dict",
+  "homepage": "https://github.com/xuchunyang/bdcv",
   "dependencies": {
     "chalk": "^2.4.1",
     "jsdom": "^13.0.0"
